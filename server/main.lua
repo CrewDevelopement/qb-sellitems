@@ -16,7 +16,7 @@ RegisterNetEvent('qb-sellitems:server:sellgold', function()
         for k, v in pairs(Player.PlayerData.items) do
             if Player.PlayerData.items[k] ~= nil then
                 if Goldlist[Player.PlayerData.items[k].name] ~= nil then
-                    price = price + (Scraplist[Player.PlayerData.items[k].name] * Player.PlayerData.items[k].amount)
+                    price = price + (Goldlist[Player.PlayerData.items[k].name] * Player.PlayerData.items[k].amount)
                     Player.Functions.RemoveItem(Player.PlayerData.items[k].name, Player.PlayerData.items[k].amount, k)
 
         Player.Functions.AddMoney("cash", price, "sold-resources")
@@ -30,3 +30,4 @@ RegisterNetEvent('qb-sellitems:server:sellgold', function()
     end
 
 end)
+
