@@ -3,9 +3,9 @@ QBCore Sellitems Script
 
 Made with help of qb-template
 
-# Functions
+**Functions**
 Designed for selling items from my goldpanning script
-Found here:    
- # Dependencies
-    qb-core (framework)  https://github.com/qbcore-framework/qb-core
-    qb-goldpan 
+
+**Dependencies**
+    qb-core (framework): https://github.com/qbcore-framework/qb-core
+    qb-goldpan: https://github.com/RapidzModzz/qb-goldpan
