@@ -7,6 +7,7 @@ Made with help of qb-template
 Designed for selling items from my goldpanning script
 
 **Dependencies**
-    qb-core (framework): https://github.com/qbcore-framework/qb-core
+qb-core (framework): https://github.com/qbcore-framework/qb-core
     
-    qb-goldpan: https://github.com/RapidzModzz/qb-goldpan
+qb-goldpan: https://github.com/RapidzModzz/qb-goldpan
+    
